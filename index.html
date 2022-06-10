@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--
+	Brian Nguyen - Portfolio
+	briannguyen1210@gmail.com
+-->
+<html>
+  <head>
+    <title>Brian Nguyen Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="icon fa-gem"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>Hello, I'm Brian Nguyen</h1>
+            <p>
+              Welcome to my portfolio. Please view the info below to get to know
+              me better.
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Intro -->
+        <article id="intro">
+          <h2 class="major">Intro</h2>
+          <span class="image main">
+            <img src="images/brian-portrait.jpeg" alt="" />
+          </span>
+          <p>
+            I graduated from the University of Washington Seattle in December
+            2020 with a bachelor of science degree in Electrical Engineering.
+            While I have spent the past few years developing imaging algorithms
+            for ultrasonic transducers and researching on spinal cord injury
+            using ultrasound imaging, I have also learned and become interested
+            in a lot of different skills such as data analytics, data science,
+            and software developing. Coding in different programming languages
+            and solving complex problems has always been my passion and
+            triggered my curiosity. Therefore, I want to pursue this exciting
+            tech industry as my career path, and this portfolio will signify my
+            commitment in this specific field.
+          </p>
+          <p>
+            From my previous role at Sonic Concepts Inc. as an Ultrasound
+            Imaging Engineer consultant, I learned how to lead a big project and
+            make all the decisions regarding designing, prototyping, testing,
+            and data collecting to present it to my client. With each decision I
+            made, each bug I dealt with, or each approach I used, I continued
+            improving my problem-solving skill and the ability to learn quickly
+            to deliver the best result to my clients. I also learned how to
+            manage my time well when I worked on my capstone project with Amazon
+            along with 4 other teammates, as I was a team leader and got to
+            distribute the work for each member and keep track of the work that
+            each of us did in order to deliver the best results in a timely
+            manner in weekly meetings. I believe that being able to use the
+            technical skillsets I have learned from my past experience and
+            integrate it with my soft skills along the way is a key to my
+            success story, and I will continue doing that to reach my career
+            goals.
+          </p>
+        </article>
+
+        <!-- project -->
+        <article id="project">
+          <h2 class="major">Project</h2>
+          <div id="project-page">
+            <h3>Guess My Drawing - AWS DeepLens with Alexa Echo Device</h3>
+            <span class="image main">
+              <img src="images/deeplens.png" alt="" />
+            </span>
+            <p>
+              Guess My Drawing is an interactive drawing game between players
+              and an Alexa Echo device. An Amazon AWS deep-learning camera
+              called
+              <a
+                href="https://aws.amazon.com/deeplens/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >DeepLens</a
+              >
+              will capture what a player draws on a whiteboard or a white paper
+              and inference the drawing to the most relevant object. This game
+              is a great way for developers who are interested in deep-learning
+              applications with DeepLens and exploring AWS services and how to
+              connect DeepLens with Alexa skills.
+            </p>
+            <p>
+              I led this project with 4 other teammates and reported to a
+              Software Engineer and a Product Manager from Amazon. I was in
+              charge of designing and implementing the entire Alexa voice
+              interface and supporting my team with imaging algorithms for
+              pre-processing the input data (the drawings captured by DeepLens)
+              to match the input data of the deep-learning model. After 6 months
+              of hard work, our team was able to deliver a comprehensive and
+              thorough project, and the project was published in the AWS
+              Deeplens community (link below).
+            </p>
+            <a
+              href="https://aws.amazon.com/blogs/machine-learning/building-a-pictionary-style-game-with-aws-deeplens-and-amazon-alexa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Learn More
+            </a>
+          </div>
+          <div class="pagination">
+            <div class="arrow arrow-left" onclick="prev()">
+              <div class="arrow-left-top"></div>
+              <div class="arrow-left-bottom"></div>
+            </div>
+            <div id="counter" class="counter">1 / 2</div>
+            <div class="arrow arrow-right" onclick="next()">
+              <div class="arrow-top"></div>
+              <div class="arrow-bottom"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- skills -->
+        <article id="skills">
+          <h2 class="major">Skills</h2>
+          <span class="image main"><img src="images/skills.png" alt="" /></span>
+          <p>
+            - <strong>Programming:</strong> Java, Python, ReactJS/ReactNative,
+            Javascript/CSS, C/C++ (Visual Studio, Arduino), Linux, MATLAB.
+            <br />
+            - <strong>Concepts:</strong> Data Structures and Algorithms,
+            Object-Oriented Programming, Database (Pandas, MySQL), Machine
+            Learning (Tensorflow/Keras, PyTorch), Computer Vision (OpenCV), AWS
+            Cloud (SageMaker, Lambda, Kinesis Stream, Alexa Skill, S3),
+            Website/Mobile App Design (Front-end). <br />
+            - <strong>Ultrasound Concepts:</strong> B-mode, Doppler,
+            Contrast-enhanced, Perfusion & Flow, SVD Filter, Plane-wave angles,
+            wide-beam, pulse-inversion, THI.
+          </p>
+          <p>
+            If you'd like to learn more about my experience, please download my
+            resume in the link below.
+          </p>
+          <a
+            href="files/BrianNguyen_SWE_Resume_2022.pdf"
+            download="BrianNguyen_SWE_Resume_2022.pdf"
+            ><u>BrianNguyen_SWE_Resume.pdf</u></a
+          >
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <div>
+            <div class="fields">
+              <div class="field half">
+                <label for="email">Email: briannguyen1210@gmail.com</label>
+              </div>
+              <div class="field">
+                <label for="message">Phone Number: (920)860-0071</label>
+              </div>
+            </div>
+          </div>
+          <ul class="icons">
+            <li>
+              <a
+                class="icon brands fa-linkedin"
+                href="https://www.linkedin.com/in/briannguyen1012/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="label">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/briannguyen1210/"
+                class="icon brands fa-github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">&copy; Portfolio. Brian Nguyen.</p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/projectbutton.js"></script>
+  </body>
+</html>
